@@ -24,6 +24,10 @@ body {
   max-width: 100%;
   box-sizing: border-box; }
 
+.u-full-width {
+  width: 100%;
+  box-sizing: border-box; }
+
 /* TOP Header */
 .container-wset {
     height: 150px;
@@ -100,7 +104,31 @@ li.navbar-item {
 	background-color: #fff;
     border-radius: 1%;
 }
-
+/*Bottom menu */
+#bottom-menu {
+    height:10rem;
+    background-color: #fff;
+    bottom:0rem;
+    text-align: center;
+}
+#bottom-menu .copyright {
+    padding-top: 2rem;
+    opacity: 0.75;
+}
+#bottom-menu .social-media ul {
+    margin-bottom: 0rem;
+}
+#bottom-menu .social-media li {
+    margin-top: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+#bottom-menu .social-media img {
+    height: 3.6rem;
+}
 /* INDEX BIT */
 
 #main-body .sub-home {

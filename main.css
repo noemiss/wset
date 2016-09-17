@@ -1,20 +1,29 @@
-/* LOGO */  
+/* SOME GENERAL*/  
 body {
     background-color: #F2F2F2;
 }
 .header {
     background-color: #fff;  
 }
-.container-wset {
-    height: 150px;
-    width:100%;
-}
 
 .fb-button {
     padding-top: 1.5rem;
     margin-top: 3rem;
 }
+.shadow{
+    -webkit-box-shadow: 0px 4px 6px 0px #999;
+    -moz-box-shadow: 0px 4px 6px 0px #999;
+    box-shadow: 0px 4px 6px 0px #999;
+}
+.u-max-full-width {
+  max-width: 100%;
+  box-sizing: border-box; }
 
+/* TOP Header */
+.container-wset {
+    height: 150px;
+    width:100%;
+}
 /* NAVBAR  */
 .filler {
     margin-left: 5%;
@@ -68,12 +77,7 @@ li.navbar-item {
     width: 100%;
     z-index: 99;
 }
-.shadow
-{
-    -webkit-box-shadow: 0px 4px 6px 0px #999;
-    -moz-box-shadow: 0px 4px 6px 0px #999;
-    box-shadow: 0px 4px 6px 0px #999;
-}
+
 /*.navbar-spacer {
     background: #fff none repeat scroll 0 0;
     display: block;
@@ -83,9 +87,6 @@ li.navbar-item {
     z-index: 99;
 } */
 /* MAIN BODY */
-.bigcontainer {
-    margin-left: 4rem;
-}
 #main-body{
 	margin-top: 3rem;
 	padding-top: 1.5rem;
@@ -94,6 +95,7 @@ li.navbar-item {
 	background-color: #fff;
     border-radius: 1%;
 }
+
 /* INDEX BIT */
 
 #main-body .sub-home {
@@ -160,9 +162,6 @@ li.navbar-item {
     color:red;
     font-weight: bold;
 }
-.u-max-full-width {
-  max-width: 100%;
-  box-sizing: border-box; }
 .s-image {
     margin-left: 0rem;
     margin-top:2rem;
@@ -199,21 +198,6 @@ li.navbar-item {
 }
 
 @media(max-width: 550px) {
-    #navi button:hover {
-        color:red;
-        z-index: 5;
-        visibility: visible;
-    }
-    li.navbar-item button:hover {
-        visibility: visible;
-    }
-    #navi{
-        z-index: -5;
-        position: relative;
-    }
-    .main-body {
-        padding-top: 10rem;
-    }
     #main-body{
         margin-top: 33rem;
     }

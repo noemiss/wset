@@ -103,13 +103,14 @@ li.navbar-item {
     padding-bottom: 1.5rem;
 	background-color: #fff;
     border-radius: 1%;
+    min-height: 30rem;
 }
 /*Bottom menu */
 #bottom-menu {
     height:10rem;
     background-color: #fff;
-    bottom:0rem;
     text-align: center;
+    bottom: 0rem;
 }
 #bottom-menu .copyright {
     padding-top: 2rem;

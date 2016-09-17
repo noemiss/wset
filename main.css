@@ -83,6 +83,9 @@ li.navbar-item {
     z-index: 99;
 } */
 /* MAIN BODY */
+.bigcontainer {
+    margin-left: 4rem;
+}
 #main-body{
 	margin-top: 3rem;
 	padding-top: 1.5rem;
@@ -182,24 +185,20 @@ li.navbar-item {
     font-weight: bold;
 }
 
-/*----------------*/
+/*------Media addapts-------*/
+@media(max-width: 1200px) {
+    .fb-button{
+       visibility: hidden;
+    }
+}
+
 @media(max-width: 750px) {
     .navbar-link {
         font-size: 1rem;
     }
-    .fb-button{
-        visibility: hidden;
-    }
 }
 
 @media(max-width: 550px) {
-    li.navbar-item {
-        visibility: hidden;
-    }
-    .filler {
-        margin-left: 40%;
-        visibility: visible;
-    }
     #navi button:hover {
         color:red;
         z-index: 5;
@@ -210,5 +209,13 @@ li.navbar-item {
     }
     #navi{
         z-index: -5;
+        position: relative;
     }
+    .main-body {
+        padding-top: 10rem;
+    }
+    #main-body{
+        margin-top: 33rem;
+    }
+
 }

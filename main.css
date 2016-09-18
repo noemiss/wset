@@ -233,7 +233,19 @@ li.navbar-item {
     color:red;
     font-weight: bold;
 }
-
+.sub-contact img {
+    vertical-align: text-bottom;
+    height:2rem;
+}
+.sub-contact ul.newsletter-list {
+    margin-left: 40%;
+}
+.sub-contact li.newsletter-link {
+    display: block;
+}
+.sub-contact .newsletter-link a {
+    color: red;
+}
 /*------Media addapts-------*/
 @media(max-width: 1200px) {     /*fb button hidden */
     .fb-button{
